@@ -16,6 +16,7 @@
     $comments = $_POST["comments"];
     if(!($comments == '' || $comments === NULL)){
         echo $comments;
+        echo $_SERVER['REQUEST_URI'];
     }
     ?>
  
