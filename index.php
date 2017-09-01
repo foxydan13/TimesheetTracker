@@ -6,10 +6,18 @@
 
 <body>  
   <h1>Ducky and Dan's Tantalising Timesheet Tracker</h1>
-    <form id="contact" action="submit.php" method="post">
+    <form id="contact" action="index.php" method="post">
       <textarea name="comments" placeholder="Please enter your comments or questions..."></textarea>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </form>
+  </br>
+</br>
+    <?php 
+    $comments = $_POST["comments"];
+    if(!($comments == '' || $comments === NULL)){
+        echo $comments;
+    }
+    ?>
  
 </body>
 </html>
