@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Kick Off 2017 - Feedback</title>
+  <title>Ducky and Dan's Tantalising Timesheet Tracker</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
